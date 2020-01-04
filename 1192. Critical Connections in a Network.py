@@ -13,7 +13,7 @@ Probably still little confusing.... maybe look at codes can make you feel better
 class Solution:
     def criticalConnections(self, n: int, connections: List[List[int]]) -> List[List[int]]:
 
-		    graph = [[] for _ in range(n)] ## vertex i ==> [its neighbors]
+	graph = [[] for _ in range(n)] ## vertex i ==> [its neighbors]
 		
         currentRank = 0 ## please note this rank is NOT the num (name) of the vertex itself, it is the order of your DFS level
 		
