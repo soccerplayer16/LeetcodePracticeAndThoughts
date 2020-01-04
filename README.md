@@ -1,4 +1,6 @@
 # Leetcode Practice and Thoughts
-This folder contains my own leetcode solutions with problem solving thinking process.
+This folder contains some of my own leetcode solutions that are liked many times on leetcode discuss section.
 
-~350 problems
+Thought process were provided on these problems.
+
+~400 problems solved
