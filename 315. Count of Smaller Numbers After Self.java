@@ -1,3 +1,6 @@
+# This problem is interesting, we need to get how many numbers after current number are smaller than current number.
+# We adopt the idea of inserting nodes in BST, and count how many counts/nodes are on my left subtree
+
 # Technically this is O(N2) method in worse case (the input array is descending order from left to right, in which case, the BST is a linked list). In a random case, the amortized time complexity is O(NlogN).
 
 class Solution {
