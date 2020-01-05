@@ -3,7 +3,7 @@
 // Then we know how many chars (let's call it matchScore) are matched for this randome guessed word X with the secret word
 // Then we create a new candidate list in which all the words have to have same matchScore with X in order to be a secret word
 // We keep doing this to reduce the candidate word list. 
-
+// I really like my answer here :)
 // Here I found if I take one randome guess each time, some test cases will fail. So I did TWO guess each time, to reduce the candidate list faster. Then it get AC.
 
     public void findSecretWord(String[] wordlist, Master master) {
