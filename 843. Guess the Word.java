@@ -15,7 +15,7 @@
             candidateList.add(word);
         }
         
-        for (int i = 0; i < 10; i ++) {
+        for (int i = 0; i < 5; i ++) {
             int len = candidateList.size();
             String nextGuess = candidateList.get(rand.nextInt(len));
             String nextGuess2 = candidateList.get(rand.nextInt(len));
